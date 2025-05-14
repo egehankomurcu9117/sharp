@@ -1,0 +1,10 @@
+com/example/selenium/SeleniumBase.class
+com/example/api/RestAssuredBase.class
+com/example/gauge/ApiSteps.class
+com/example/api/KarateRunner.class
+com/example/api/RestAssuredTest.class
+com/example/appium/AppiumBase.class
+com/example/appium/AndroidAppTest.class
+com/example/gauge/AndroidAppSteps.class
+com/example/gauge/WebSteps.class
+com/example/selenium/WebTest.class

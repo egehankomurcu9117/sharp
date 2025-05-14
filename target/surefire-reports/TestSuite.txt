@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 2, Errors: 0, Skipped: 10, Time elapsed: 9.508 s <<< FAILURE! - in TestSuite
+setUp(com.example.appium.AndroidAppTest)  Time elapsed: 1.677 s  <<< FAILURE!
+java.lang.NoSuchMethodError: 'void org.openqa.selenium.remote.http.ClientConfig.<init>(java.net.URI, java.time.Duration, java.time.Duration, org.openqa.selenium.remote.http.Filter, java.net.Proxy, org.openqa.selenium.Credentials)'
+	at com.example.appium.AndroidAppTest.setUp(AndroidAppTest.java:34)
+
+setUp(com.example.selenium.WebTest)  Time elapsed: 0.277 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/mobile/NetworkConnection
+	at com.example.selenium.WebTest.setUp(WebTest.java:29)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.mobile.NetworkConnection
+	at com.example.selenium.WebTest.setUp(WebTest.java:29)
+
