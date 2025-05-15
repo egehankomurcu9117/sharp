@@ -1,0 +1,51 @@
+[
+  {
+    "key": "login",
+    "androidValue": "com.vektortelekom.android.vservice.test:id/button_login",
+    "androidType": "id",
+    "iosValue": "**/XCUIElementTypeStaticText[`label == \"Giriş Yap\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "email",
+    "androidValue": "com.vektortelekom.android.vservice.test:id/edit_text_email",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "password",
+    "androidValue": "com.vektortelekom.android.vservice.test:id/edit_text_password",
+    "androidType": "id",
+    "iosValue": "//XCUIElementTypeOther/XCUIElementTypeSecureTextField",
+    "iosType": "xpath"
+  },
+  {
+    "key": "flexiShuttleButton",
+    "androidValue": "com.vektortelekom.android.vservice.test:id/button_flexi_shuttle",
+    "androidType": "id",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Flexi Shuttle\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "profileButton",
+    "androidValue": "com.vektortelekom.android.vservice.test:id/button_profile",
+    "androidType": "id",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Profil\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "settingsButton",
+    "androidValue": "com.vektortelekom.android.vservice.test:id/button_settings",
+    "androidType": "id",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Ayarlar\"`]",
+    "iosType": "classChain"
+  },
+  {
+    "key": "logoutButton",
+    "androidValue": "com.vektortelekom.android.vservice.test:id/button_logout",
+    "androidType": "id",
+    "iosValue": "**/XCUIElementTypeButton[`label == \"Çıkış Yap\"`]",
+    "iosType": "classChain"
+  }
+]
