@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ERP Test Suite" parallel="classes" thread-count="2">
+    <test name="Login Tests">
+        <classes>
+            <class name="com.erp.test.tests.login.LoginTests" />
+        </classes>
+    </test>
+    <test name="Finance Module Tests">
+        <classes>
+            <class name="com.erp.test.tests.finance.InvoiceTests" />
+        </classes>
+    </test>
+</suite>
